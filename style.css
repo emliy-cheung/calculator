@@ -1,0 +1,46 @@
+#root {
+	/*   height: 100vh; */
+	/*   display: flex; */
+	align-items: center;
+	justify-content: center;
+}
+
+.calculator {
+	margin: auto;
+	width: 320px;
+	/*   height: 450px; */
+	border: 1px solid black;
+	padding: 15px;
+	background: grey;
+	/*   text-align: center; */
+	position: relative;
+}
+
+.equation {
+	/*   height: 35px; */
+	text-align: right;
+	font-size: 20px;
+	min-height: 25px;
+}
+
+#display {
+	height: 35px;
+	text-align: right;
+	font-size: 28px;
+}
+
+button {
+	position: relative;
+	width: 80px;
+	height: 65px;
+}
+
+.large {
+	width: 160px;
+}
+
+#equal {
+	height: 130px;
+	position: absolute;
+	bottom: 15px;
+}
