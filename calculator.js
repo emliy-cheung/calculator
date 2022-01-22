@@ -12,19 +12,19 @@ class Calculator extends React.Component {
        super(props);
        this.state = {
          btn: [
-           {value: 'AC', id: 'clear', name: 'large'},   
-		       {value: '/', id: 'divide'},
-		       {value: '*', id: 'multiply'},
+            {value: 'AC', id: 'clear', name: 'large'},   
+		       {value: '/', id: 'divide', name:"operator"},
+		       {value: 'x', id: 'multiply', name:"operator"},
            
 		       {value: '7', id: 'seven'}, 
            {value: '8', id: 'eight'}, 
            {value: '9', id: 'nine'}, 
-           {value: '-', id: 'subtract'},
+           {value: '-', id: 'subtract', name:"operator"},
 		   
 		       {value: '4', id: 'four'}, 
            {value: '5', id: 'five'}, 
            {value: '6', id: 'six'}, 
-           {value: '+', id: 'add'},
+           {value: '+', id: 'add', name:"operator"},
 		   
 		       {value: '1', id: 'one'}, 
            {value: '2', id: 'two'}, 
