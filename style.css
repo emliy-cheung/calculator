@@ -5,7 +5,7 @@ body {
 }
 
 .calculator {
-	margin: auto;
+	margin: 30px auto;
 	width: 320px;
 	/*   height: 450px; */
 	border: 1px solid black;
