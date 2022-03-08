@@ -49,7 +49,7 @@ handleClick(e) {
     const opWoNeg = /[+x/]/;
     const numbers = /[0-9]/;
     if (e.target.value == 'AC') {
-      console.log("clear")
+
       this.setState({
         arr: [],
         current: 0
@@ -149,8 +149,8 @@ handleClick(e) {
   
   render() {
     return (
-      <div class="calculator">
-        <div class="equation">{this.state.arr}</div>
+      <div className="calculator">
+        <div className="equation">{this.state.arr}</div>
         <div id="display">{this.state.current}</div>
         {this.state.btn.map(item => (
           <Pad
